@@ -37,9 +37,7 @@ This is a paid service - consequently the following applies.
 	
 Service Availability
 
-* The service functions on all iOS devices - (including the simulator)
-
-* The service will be released shortly for MacOSX
+* The service functions on all iOS devices - (including the simulator) and MacOSX
 
 * The service will be ported to Windows and Android devices shortly
 
