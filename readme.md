@@ -33,7 +33,7 @@ This is a paid service - consequently the following applies.
 	*  50MB - 100MB		10 euro / day
 	* 100MB - 200MB		50 euro / day
 	* 200MB - 500MB		200 euro / day
-	
+	* Above 500MB		Contact us..	
 	
 Service Availability
 
