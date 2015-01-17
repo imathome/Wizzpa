@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>services</key>
+	<array>
+		<string>chat1.wizzpa.to</string>
+		<string>chat2.wizzpa.to</string>
+		<string>chat3.wizzpa.to</string>
+	</array>
+</dict>
+</plist>
