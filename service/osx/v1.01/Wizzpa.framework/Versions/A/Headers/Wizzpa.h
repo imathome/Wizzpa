@@ -81,7 +81,7 @@ typedef NS_OPTIONS(NSInteger, eReasons) {
 	eReasonDisconnectReasonsExpired = 99112,
 	eReasonDisconnectReasonsTerminated = 99113,
 	eReasonDisconnectReasonsAbuse = 99116,
-	eReasonDisconnectReasonsBanned = 99117,
+	eReasonDisconnectReasonsBanned = 99117,    
 	eReasonDisconnectReasonsUnspecified = 99120,
 };
 
@@ -138,9 +138,15 @@ typedef NS_OPTIONS(NSInteger, eReasons) {
 
 	- (void) isAliasOnline:(NSString *)alias block:(WizzpaCallbackBlock)block;
 
+    - (void) aliasExists:(NSString *)alias block:(WizzpaCallbackBlock)block;
+
 	- (void) allAliasesOnlineWithBlock:(WizzpaCallbackBlock)block;
 
 	- (void) registerAlias:(NSString*)alias block:(WizzpaCallbackBlock)block;
+
+    - (void) loginAlias:(NSString*)alias withPassword:(NSString*)password block:(WizzpaCallbackBlock)block;
+
+    - (void) createAlias:(NSString*)alias withPassword:(NSString*)password email:(NSString*)email block:(WizzpaCallbackBlock)block;
 
 	- (void) send:(NSString*)alias domain:(NSString*)domain message:(NSString*)message block:(WizzpaCallbackBlock)block;
 
